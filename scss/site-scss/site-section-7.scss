@@ -1,6 +1,12 @@
 .site-section-7 {
     background: $primary;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .in{
+        width: 100%;
+    }
 
     .section-in {
         background-image: url("../images/img/contact-bg.png");

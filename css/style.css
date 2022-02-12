@@ -16,7 +16,11 @@
 -------------------------------------------------------------------------------------------*/
 .site-section-2 {
   min-height: 100vh;
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  .site-section-2 .in {
+    width: 100%; }
   .site-section-2 .section-1 {
     background-color: #030102;
     min-height: 21.875rem;
@@ -83,7 +87,11 @@
   CSS section 3
 -------------------------------------------------------------------------------------------*/
 .site-section-3 {
-  min-height: 100vh; }
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
+  .site-section-3 .in {
+    width: 100%; }
   .site-section-3 .canday-2 {
     position: absolute;
     left: 40px;
@@ -513,7 +521,11 @@
 -------------------------------------------------------------------------------------------*/
 .site-section-4 {
   position: relative;
-  min-height: 100vh; }
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
+  .site-section-4 .in {
+    width: 100%; }
   .site-section-4 .top-bg {
     background: #030102;
     width: 100%;
@@ -696,7 +708,11 @@
   background: #030102;
   min-height: 100vh;
   position: relative;
-  z-index: 0; }
+  z-index: 0;
+  display: flex;
+  align-items: center; }
+  .site-section-6 .in {
+    width: 100%; }
   .site-section-6 .carousel .carousel-control-next, .site-section-6 .carousel .carousel-control-prev {
     width: 10% !important;
     top: -60px;
@@ -765,7 +781,11 @@
 
 .site-section-7 {
   background: #030102;
-  min-height: 100vh; }
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
+  .site-section-7 .in {
+    width: 100%; }
   .site-section-7 .section-in {
     background-image: url("../images/img/contact-bg.png");
     background-size: 100%;

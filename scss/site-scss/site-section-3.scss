@@ -4,6 +4,12 @@
 -------------------------------------------------------------------------------------------*/
 .site-section-3 {
 	min-height: 100vh;
+	display: flex;
+	align-items: center;
+
+	.in {
+		width: 100%;
+	}
 	.canday-2 {
 		position: absolute;
 		left: 40px;

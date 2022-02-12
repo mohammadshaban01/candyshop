@@ -4,6 +4,12 @@
 .site-section-4 {
   position: relative;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .in{
+    width: 100%;
+  }
 
   .top-bg {
     background: $primary;

@@ -5,10 +5,10 @@ Error: Undefined variable: "$primary".
 1: .site-section-7 {
 2:     background: $primary;
 3:     min-height: 100vh;
-4: 
-5:     .section-in {
-6:         background-image: url("../images/img/contact-bg.png");
-7:         background-size: 100%;
+4:     display: flex;
+5:     align-items: center;
+6: 
+7:     .in{
 
 Backtrace:
 scss/site-scss/site-section-7.scss:2
@@ -65,4 +65,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary\".\A         on line 2 of scss/site-scss/site-section-7.scss\A \A 1: .site-section-7 {\A 2:     background: $primary;\A 3:     min-height: 100vh;\A 4: \A 5:     .section-in {\A 6:         background-image: url(\"../images/img/contact-bg.png\");\A 7:         background-size: 100%;"; }
+  content: "Error: Undefined variable: \"$primary\".\A         on line 2 of scss/site-scss/site-section-7.scss\A \A 1: .site-section-7 {\A 2:     background: $primary;\A 3:     min-height: 100vh;\A 4:     display: flex;\A 5:     align-items: center;\A 6: \A 7:     .in{"; }

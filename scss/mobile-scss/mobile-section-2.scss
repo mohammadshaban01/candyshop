@@ -1,0 +1,53 @@
+.mobile-section-2 {
+    height: 100vh;
+
+    .section-1 {
+        background: $primary;
+        display: flex;
+        align-items: start;
+        text-align: center;
+        padding-top: 50px;
+        position: relative;
+
+        h4 {
+            font-size: 12px;
+            color: $white;
+            text-align: left;
+            font-weight: 300;
+            line-height: 18px;
+            padding-top: 20px;
+        }
+    }
+
+    .section-2 {
+        .left {
+            h3,
+            h4 {
+                padding-left: 15px;
+            }
+        }
+        .right {
+            &::after {
+                content: "";
+                border-right: 1px solid $font-color;
+                position: absolute;
+                height: 30%;
+                right: 0;
+                bottom: 0;
+            }
+        }
+
+        h3 {
+            font-size: $base-size * 7;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+        h4 {
+            font-size: $base-size * 9;
+            color: $font-color;
+            line-height: 18px;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+    }
+}

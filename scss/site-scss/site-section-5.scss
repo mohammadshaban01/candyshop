@@ -1,0 +1,99 @@
+/*-------------------------------------------------------------------------------------------
+  CSS section 5
+-------------------------------------------------------------------------------------------*/
+.site-section-5 {
+	
+	.section-1 {
+		min-height: 320px;
+
+		.our-team {
+			height: 320px;
+			display: flex;
+			// flex-wrap: wrap;
+			align-items: center;
+			margin-left: 20px;
+
+			h4 {
+				font-size: 34px;
+				color: $secondery;
+				margin-right: 20px;
+				padding-top: 26px;
+				margin-bottom: 0;
+			}
+
+			.our-content {
+				width: 50%;
+				height: 210px;
+				padding: 10px 30px;
+				border: 1px dashed #231f20;
+				border-radius: 50px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				position: relative;
+
+				&::after {
+					content: "";
+					width: 282px;
+					position: absolute;
+					border-bottom: 1px dashed #231f20;
+					left: -283px;
+					bottom: 62px;
+				}
+
+				h5 {
+					font-size: 12px;
+					line-height: 22px;
+				}
+				h6 {
+					font-size: 14px;
+					line-height: 22px;
+					color: $font-color;
+					font-weight: 600;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	.section-2 {
+		width: 100%;
+		min-height: 345px;
+		background: $primary;
+
+		.list-1 {
+			height: 206px;
+			border: 1px dashed $font-color;
+			border-radius: 40px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			h6 {
+				color: $white;
+				margin-top: 10px;
+			}
+		}
+		.list-2 {
+			@extend .list-1;
+			margin-left: 20px;
+			position: relative;
+			.list-img-2 {
+				position: absolute;
+				bottom: -35px;
+				left: -41px;
+			}
+		}
+		.list-3 {
+			@extend .list-1;
+			margin-left: 20px;
+			position: relative;
+			.list-img-3 {
+				position: absolute;
+				top: 18px;
+				left: -28px;
+			}
+		}
+	}
+}

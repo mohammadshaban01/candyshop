@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,iBAAiB;EACb,MAAM,EAAE,KAAK",
+"sources": ["../../scss/mobile-scss/mobile-section-2.scss"],
+"names": [],
+"file": "mobile-section-2.css"
+}

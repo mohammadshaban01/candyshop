@@ -1,0 +1,106 @@
+/*-------------------------------------------------------------------------------------------
+  CSS section 2
+-------------------------------------------------------------------------------------------*/
+.site-section-2 {
+	min-height: 100vh;
+	width: 100%;
+	// height: 100vh;
+
+	.section-1 {
+		background-color: $primary;
+		min-height: $base-size * 175;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+
+		.col-md-5 {
+			position: relative;
+			.desktop-img {
+				width: 40%;
+				position: absolute;
+				left: -140px;
+				top: -120px;
+				
+			}
+		}
+
+
+		.section-had {
+			display: flex;
+			align-items: flex-end;
+			min-height: $base-size * 88;
+			position: relative;
+			h2 {
+				font-size: $base-size * 15;
+				color: $white;
+				font-weight: 300;
+				span {
+					color: $secondery;
+				}
+			}
+		}
+	}
+	.section-2 {
+		width: 100%;
+		background: $white;
+		min-height: $base-size * 175;
+
+		h4 {
+			font-size: $base-size * 8;
+			margin-top: $base-size * 5;
+			margin-bottom: 0;
+			line-height: $base-size * 11;
+		}
+
+		.business {
+			margin-top: $base-size * 16;
+			border-right: $base-size * 0.5 solid $font-color;
+
+			h5 {
+				color: $font-color;
+				font-weight: 600;
+				line-height: 18px;
+			}
+			h6 {
+				margin-bottom: 0;
+				font-size: $base-size * 7;
+				font-weight: 600;
+			}
+		}
+		.border-r {
+			border-right: none;
+		}
+
+		.candy-1 {
+			position: relative;
+			img {
+				width: 100%;
+				position: absolute;
+				left: -50px;
+				top: -20px;
+			}
+		}
+		.candy-2 {
+			@extend .candy-1;
+			img {
+				left: -50px;
+			}
+		}
+		.candy-3 {
+			@extend .candy-1;
+			img {
+				top: -35px;
+				left: -30px;
+			}
+		}
+		.candy-4 {
+			@extend .candy-1;
+			img {
+				left: 20px;
+				top: -50px;
+			}
+		}
+	}
+}
+
+

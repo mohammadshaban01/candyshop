@@ -1,0 +1,42 @@
+.mobile-section-1 {
+    background: $primary;
+    width: 100%;
+    height: 100vh;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // text-align: right;
+    padding-top: 50px;
+    position: relative;
+
+    .main {
+        position: absolute;
+        bottom: 25px;
+        right: 0px;
+
+        .inner {
+            text-align: right;
+        }
+
+        .cd-img{
+            position: absolute;
+            bottom: 0px;
+            left: -74px;
+        }
+    }
+
+    h2 {
+        font-size: 22px;
+        color: $white;
+        font-weight: 400;
+        display: inline-block;
+        text-align: left;
+        padding-right: 30px;
+        position: absolute;
+        bottom: 200px;
+        left: 20px;
+        span {
+            color: $secondery;
+        }
+    }
+}

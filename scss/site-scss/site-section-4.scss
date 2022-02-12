@@ -1,0 +1,153 @@
+/*-------------------------------------------------------------------------------------------
+  CSS section 3
+-------------------------------------------------------------------------------------------*/
+.site-section-4 {
+  position: relative;
+  min-height: 100vh;
+
+  .top-bg {
+    background: $primary;
+    width: 100%;
+    height: 170px;
+    display: flex;
+
+    .top-had {
+      height: 170px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 20px;
+
+      h4 {
+        font-size: $base-size * 10;
+        color: $white;
+        font-weight: 400;
+        display: inline-block;
+        padding: 2px;
+        margin-bottom: 0;
+      }
+      h5 {
+        @extend h4;
+        font-size: $base-size * 22;
+        color: $secondery;
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+
+  .canday-img {
+    position: absolute;
+    top: 40px;
+    left: -222px;
+  }
+
+  .way-list {
+    display: flex;
+    align-items: end;
+    min-height: 140px;
+
+    h2 {
+      color: $font-color;
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+    h3 {
+      font-size: $base-size * 5;
+      font-weight: 600;
+      line-height: 14px;
+      position: relative;
+
+      &::after {
+        content: "";
+        height: 40px;
+        border-left: 1px dashed $border-color;
+        position: absolute;
+        bottom: -14px;
+        left: -16px;
+      }
+
+      &::before {
+        content: "";
+        width: 100%;
+        border-bottom: 1px dashed $border-color;
+        position: absolute;
+        bottom: -14px;
+        left: -16px;
+      }
+    }
+  }
+  .way-list-2 {
+    display: flex;
+    align-items: end;
+    min-height: 140px;
+
+    h2 {
+      color: $font-color;
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+    .result {
+      h2 {
+        display: inline-block;
+        position: relative;
+        top: 19px;
+        left: 12px;
+        font-size: 30px;
+      }
+    }
+    h3 {
+      font-size: $base-size * 5;
+      font-weight: 600;
+      line-height: 14px;
+      position: relative;
+
+      &::after {
+        content: "";
+        height: 65px;
+        border-left: 1px dashed $border-color;
+        position: absolute;
+        bottom: -14px;
+        left: -16px;
+      }
+
+      &::before {
+        content: "";
+        width: 100%;
+        border-bottom: 1px dashed $border-color;
+        position: absolute;
+        bottom: -14px;
+        left: -16px;
+      }
+    }
+  }
+
+  .way-list-3 {
+    @extend .way-list-2;
+
+    .cool {
+      margin-left: 50px;
+      position: relative;
+
+      .cool-img {
+        position: absolute;
+        left: -36px;
+        top: -48px;
+        z-index: 1;
+      }
+    }
+  }
+  .way-list-4 {
+    position: relative;
+    @extend .way-list-2;
+    .save-img {
+      position: absolute;
+      left: 50%;
+      top: 15px;
+      margin-left: -10px;
+    }
+  }
+}

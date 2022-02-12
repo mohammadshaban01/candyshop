@@ -1,0 +1,129 @@
+
+.site-section-6 {
+    background: $primary;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+
+
+    
+    .carousel {
+        .carousel-control-next, .carousel-control-prev {
+            width: 10%!important;
+            top: -60px;
+            opacity: 10;
+            
+            .carousel-control-prev-icon {
+                background: $primary;
+                padding: 20px;
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 8px;
+                    left: 8px;
+                }
+            }
+            .carousel-control-next-icon {
+                @extend .carousel-control-prev-icon;
+            }
+        }
+
+        .carousel-item {
+           
+
+            .section-1 {
+                z-index: 1;
+                position: relative;
+                .container {
+                    position: relative;
+                    z-index: 2;
+                }
+
+                &:first-child:after {
+                    content: '';
+                    width: 100%;
+                    background: $white;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+            }
+
+            
+
+            &:nth-child(2) {
+                background: $primary;
+           
+            }
+            &:nth-child(3) {
+                background: $primary;
+           
+            }
+            &:nth-child(4) {
+                background: $primary;
+           
+            }
+            
+
+            h2{
+                font-size: 42px;
+                color: $white;
+                text-align: center;
+                font-weight: 300;
+            }
+            .slider {
+                display: flex;
+                justify-content: center;
+    
+                .slider-l {
+                    // width: 38%;
+
+                    .vishal{
+                        position: relative;
+                        top: 20px;
+                    }
+                    .shalni {
+                        position: relative;
+                        top: 4px;
+                        left: 20px;
+                    }
+                }
+                .slider-r {
+                    width: 30%;
+                    p{
+                        font-size: 12px;
+                        line-height: 28px;
+                        
+                        span{
+                            color: $font-color;
+                            font-size: 26px;
+                            font-weight: 600;
+                        }
+                    }
+                    a{
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: $font-color;
+                    }
+                }
+              
+                h3{
+                    color: $white;
+                }
+                p{
+                    color: $white;
+                }
+            }
+        }
+        
+        
+    }
+    // .carousel-control-prev {
+    //     left: -62px!important;
+    // }
+    // .carousel-control-next {
+    //     right: -62px!important;
+    // }
+}

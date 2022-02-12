@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGI,uBAAK;EACD,OAAO,EAAE,IAAI;EACb,kBAAkB,EAAE,MAAM",
+"sources": ["../../scss/mobile-scss/mobile-section-1.scss"],
+"names": [],
+"file": "mobile-section-1.css"
+}

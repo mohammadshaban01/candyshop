@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$base-size".
-        on line 10 of scss/site-scss/site-section-1.scss
+        on line 14 of scss/site-scss/site-section-1.scss
 
-5: 	.section-inner {
-6: 		background-image: url('../images/bg-img/bg-top.jpg') ;
-7: 		background-position: center;
-8: 		background-repeat:repeat-x;
-9: 		width: 100%;
-10: 		height: $base-size * 370;
-11: 		position: relative;
-12: 
-13: 		
-14: 	}
-15: 
+9: 	.section-inner {
+10: 		background-image: url('../images/bg-img/bg-top.jpg') ;
+11: 		background-position: center;
+12: 		background-repeat:repeat-x;
+13: 		width: 100%;
+14: 		height: $base-size * 370;
+15: 		position: relative;
+16: 
+17: 		
+18: 	}
+19: 
 
 Backtrace:
-scss/site-scss/site-section-1.scss:10
+scss/site-scss/site-section-1.scss:14
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/operation.rb:67:in `_perform'
@@ -82,4 +82,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$base-size\".\A         on line 10 of scss/site-scss/site-section-1.scss\A \A 5: 	.section-inner {\A 6: 		background-image: url('../images/bg-img/bg-top.jpg') ;\A 7: 		background-position: center;\A 8: 		background-repeat:repeat-x;\A 9: 		width: 100%;\A 10: 		height: $base-size * 370;\A 11: 		position: relative;\A 12: \A 13: 		\A 14: 	}\A 15: "; }
+  content: "Error: Undefined variable: \"$base-size\".\A         on line 14 of scss/site-scss/site-section-1.scss\A \A 9: 	.section-inner {\A 10: 		background-image: url('../images/bg-img/bg-top.jpg') ;\A 11: 		background-position: center;\A 12: 		background-repeat:repeat-x;\A 13: 		width: 100%;\A 14: 		height: $base-size * 370;\A 15: 		position: relative;\A 16: \A 17: 		\A 18: 	}\A 19: "; }

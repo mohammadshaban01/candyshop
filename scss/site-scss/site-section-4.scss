@@ -6,6 +6,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+  background: $primary;
 
   .in{
     width: 100%;
@@ -42,7 +43,11 @@
     }
   }
   
-
+.bottom-bg {
+  background: $white;
+  padding-bottom: 56px;
+  padding-top: 10px;
+}
   .canday-img {
     position: absolute;
     top: 40px;

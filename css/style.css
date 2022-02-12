@@ -18,7 +18,8 @@
   min-height: 100vh;
   width: 100%;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  background: #030102; }
   .site-section-2 .in {
     width: 100%; }
   .site-section-2 .section-1 {
@@ -523,7 +524,8 @@
   position: relative;
   min-height: 100vh;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  background: #030102; }
   .site-section-4 .in {
     width: 100%; }
   .site-section-4 .top-bg {
@@ -549,6 +551,10 @@
         color: #eb008b;
         font-weight: 400;
         margin-bottom: 0; }
+  .site-section-4 .bottom-bg {
+    background: #fff;
+    padding-bottom: 56px;
+    padding-top: 10px; }
   .site-section-4 .canday-img {
     position: absolute;
     top: 40px;
